@@ -1,6 +1,6 @@
 # Botflix (Netflix Clon)
 
-https://github.com/campusboream/botflix/blob/details/src/assets/images/Netflix-Clon.png
+![alt text](https://github.com/campusboream/botflix/blob/details/src/assets/images/Netflix-Clon.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 

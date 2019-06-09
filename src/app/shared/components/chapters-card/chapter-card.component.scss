@@ -6,7 +6,6 @@
   width: 285px;
   margin: 0 30px;
 
-
   &:hover .btn--play {
     visibility: visible;
   }
@@ -18,7 +17,6 @@
 .chapter:first-of-type{
   margin-left: 0;
 }
-
 
 .chapter__media {
   position: relative;
@@ -55,6 +53,7 @@
 
 .sinopsis{
   color: #999;
+  font-size: rem(16px);
 }
 
 .btn--play {

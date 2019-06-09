@@ -6,11 +6,12 @@
 
 .chapter-logo {
   background: url(../../../../assets/images/logo-narcos.webp) no-repeat;
-  position: relative;
+  
+  background-size: contain;
   display: inline-block;
-  height: 8vw;
-  width: 50%;
-  margin: 25px 0 0 45px;
+  height: 6vw;
+  width: 40%;
+  margin: 20px 0 0 45px;
 }
 
 .dropDown {

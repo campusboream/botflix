@@ -1,6 +1,9 @@
 
 .container {
   display: flex;  
+  position: relative;
+  padding: 0 45px;
+
 }
 
 .slide-carousel{
@@ -10,8 +13,11 @@
 
 
 .moveLeft { 
-  width: 100px;
-  margin: auto 0;
+  position: absolute;
+  left: -24px;
+  top: 21%;
+  width: 50px;
+  margin: auto 20px;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -19,8 +25,11 @@
 }
 
 .moveRight{
-  width: 100px;
-  margin: auto 0;
+  position: absolute;
+  right: -10px;
+    top: 21%;
+  width: 50px;
+  margin: auto 20px;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -48,7 +57,10 @@
   }
 }
 
-
+.toTheRight{
+  margin-left:-500px;
+  transition:1s;
+}
 
 
 

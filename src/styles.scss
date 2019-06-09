@@ -5,7 +5,13 @@
 
 
 body{
-    background: rgb(0, 0, 0);
-      padding-bottom: 150px;
+  background: linear-gradient(to bottom, rgb(71, 70, 70) 0%,rgb(51, 50, 50) 50%, rgba(0,0,0,1) 100%);
+  background-repeat: no-repeat;  
+  padding-bottom: 150px;
 overflow-x: hidden;
+}
+
+button, a {
+  outline: none;
+  cursor: pointer;
 }

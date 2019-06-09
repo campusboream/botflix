@@ -6,8 +6,8 @@
   position: relative;
   background-size: contain;
   display: inline-block;
-  height: 8vw;
-  width: 50%;
+  height: 6vw;
+  width: 30vw;
   margin: 25px 0 0 45px;
 }
 
@@ -33,19 +33,8 @@
 
 .chapter__media {
   position: relative;
-
   & img {
     width: 100%;
-  }
-
-  &::before {
-    content: '1';
-    font-size: rem(30px);
-    color: white;
-    position: absolute;
-    bottom: 0;
-    margin: 0 0 5px 10px;
-    font-weight: bold;
   }
 }
 

@@ -44,11 +44,13 @@
 }
 
 .info__header {
+  
+  color: rgb(214, 207, 207);
   display: flex;
   justify-content: space-between;
   font-weight: 700;
   line-height: 1.2;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-md);
 }
 
 .sinopsis{

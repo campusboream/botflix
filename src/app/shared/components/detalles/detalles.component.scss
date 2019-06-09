@@ -1,0 +1,38 @@
+@import '../../../../assets/styles/variables';
+@import '../../../../assets/styles/rem';
+.logo{    
+
+    padding: 1.25rem 0 0.75rem 3.4375rem;
+    width: 30vw;
+}
+
+.detalles-container{
+    display: flex;    
+    padding: 1.25rem 0 0.75rem 3.4375rem;
+}
+
+.list{
+    color: var(--grey-dark);
+    font-weight: bold;
+    margin-right: rem(150px);
+
+    span{
+        display: inline-block;
+        padding-bottom: rem(10px);
+    }
+    a{
+        font-size: var(--font-size-base);
+        text-decoration: none;
+        color: var(--white);
+        font-weight: normal;
+
+        &:hover{
+            text-decoration-line: underline;
+            text-decoration-color: var(--white);
+        }
+    }
+}
+
+.list__label{
+    margin: rem(10px 0px 5px 0px);
+}

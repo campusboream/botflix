@@ -3,14 +3,20 @@ app-video:hover ~ app-video {
 }
 
 .scroll {
-  width: 100%;
-  margin-top: 100px;
+  width: 100%; 
   white-space: nowrap;
   transition: all 400ms linear;
   
   &:hover {
     transform: translate3d(-70px, 0, 0);
   }
+}
+
+.scroll:last-of-type {
+  margin-top: 100px;
+}
+.scroll:first-of-type {
+  margin-top: -80px;
 }
 app-video {
   transition: all 400ms linear;

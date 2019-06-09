@@ -20,7 +20,8 @@
 }
 .bg-trans{
   transition: .3s;
-  background: transparent;
+  box-shadow: inset 0px 40px 38px -28px rgba(0, 0, 0, 0.75);
+    background: transparent;
 }
 .navbar__elements {
   display: flex;

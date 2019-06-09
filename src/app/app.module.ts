@@ -17,6 +17,7 @@ import { BreadcrumbComponent } from './shared/components/breadcrumb/breadcrumb.c
 import { ImgsliderComponent } from './shared/components/imgslider/imgslider.component';
 import { InfomainComponent } from './shared/components/infomain/infomain.component';
 import { TrailersComponent } from './shared/components/trailers/trailers.component';
+import { DetallesComponent } from './shared/components/detalles/detalles.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { TrailersComponent } from './shared/components/trailers/trailers.compone
     BreadcrumbComponent,
     ImgsliderComponent,
     InfomainComponent,
-    TrailersComponent
+    TrailersComponent,
+    DetallesComponent
   ],
   imports: [
     BrowserModule,

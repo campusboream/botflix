@@ -1,4 +1,4 @@
-import { Component, OnInit, EventEmitter, Output } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { ServiceService } from '../../services/service.service';
 
 @Component({
@@ -8,16 +8,24 @@ import { ServiceService } from '../../services/service.service';
 })
 export class InfogeneralComponent implements OnInit {
 
+  muted;
+
   infoShow: boolean;
   constructor(private ServiceService: ServiceService) { }
 
   public chapters = this.ServiceService.getChapters();
-  public chapter = this.chapters[0];
+  public chapter = this.chapters[1];
   ngOnInit() {
-   /*  let video = <HTMLVideoElement> document.getElementById('video');
-    video.volume = 0;   */
   }
 
-  
-
+  @ViewChild("myTrailer") myTrailer: ElementRef;
+  onMute(){
+    this.muted = !this.muted;
+    if(this.muted){
+      this.myTrailer.nativeElement.volume = 0;
+    }else{
+      this.myTrailer.nativeElement.volume = 1;
+    }
+    
+  }
 }
